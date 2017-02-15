@@ -10,7 +10,7 @@ class Game(object):
 
     def _get_score(self):
         # Calculates the total game score.
-        # One should wrap this method in a "try...except" block.
+        # One should wrap this method into a "try...except" block.
         point_ind = 0
         score = 0
         for _ in xrange(self.frame_count):
@@ -31,27 +31,3 @@ class Game(object):
             return self._get_score()
         except IndexError:
             raise ValueError('Point list is too shot.')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
