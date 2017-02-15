@@ -1,7 +1,7 @@
-# Calculates total bowling game scores.
+## Calculates total bowling game scores.
 
-## Using:
-### Run python shell:
+### Using:
+#### Use a python shell:
 ```python
 >>> from src.game import Game
 >>> points = [10, 3, 7, 6, 1, 10, 10, 10, 2, 8, 9, 0, 7, 3, 10, 10, 10]
@@ -10,7 +10,7 @@
 193
 ```
 
-## Run Tests:
+#### Run Tests:
 ```bash
 python -m src.tests
 ```
